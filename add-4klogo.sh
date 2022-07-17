@@ -7,5 +7,5 @@ do
 		continue
 	fi
 
-	convert $image  4k-logo.png -geometry +3350+60  -composite ${image%%.*}-logo.jpg
+	convert $image  4k-logo.png -geometry +3200  -composite ${image%%.*}-logo.jpg
 done
